@@ -1,0 +1,22 @@
+# R session files
+.Rproj.user
+.Rhistory
+.RData
+.Rprofile
+
+# renv library (too large for GitHub, manifest.json handles packages)
+renv/library/
+renv/staging/
+
+# Raw shapefile — not needed on server (pre-built RDS files are used instead)
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.qpj
+RegionXII_Municity.rds
+
+# Temporary files
+*.tmp
+*.log
